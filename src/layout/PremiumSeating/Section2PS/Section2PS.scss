@@ -1,0 +1,91 @@
+@import '../../../variables.scss';
+
+#two-ps {
+    background-color: $white;
+    color: $black;
+
+    @media (max-width: 767px) {
+        
+    }
+
+    .two-ps-container {
+        margin: 0 auto;
+        padding: 0 15px;
+        position: relative;
+
+        @media (min-width: 768px) {
+            width: 750px;
+        }
+
+        @media (min-width: 992px) {
+            width: 970px;
+        }
+
+        @media (min-width: 1200px) {
+            width: 1170px;
+        }
+
+        & .two-ps-cards-container {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: -60px;
+            padding-bottom: 64px;
+
+            & .two-ps-card {
+                flex: 0 0 calc(50% - 10px);
+                display: flex;
+                flex-direction: column;
+                background-color: #010101;
+                color: #fff;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+                & .two-ps-image {
+                    padding-bottom: 50%;
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                & .two-ps-text {
+                    flex: 1;
+                    padding: 20px 25px;
+
+                    & h6 {
+                        font-size: 20px;
+                        color: #FBED2A;
+                        margin-bottom: 10px;
+                        text-transform: uppercase;
+                    }
+
+                    & p {
+                        font-size: 16px;
+                        margin-bottom: 10px;
+                        line-height: 1.4;
+                    }
+                }
+
+                & .two-ps-link {
+                    padding: 0 25px 25px;
+
+                    & a {
+                        text-transform: uppercase;
+                        color: $yellow;
+                        font-family: 'monument_bold';
+                        font-weight: bold;
+                        border: 1px solid $yellow;
+                        transition: all 0.15s;
+                        padding: 5px 25px;
+                        border-radius: 5px;
+                        white-space: nowrap;
+                        font-size: 15px;
+
+                        &:hover {
+                            background-color: $yellow;
+                            color: $black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
