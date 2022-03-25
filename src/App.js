@@ -1,9 +1,13 @@
 import './App.scss';
 
+import Section1PS from './layout/PremiumSeating/Section1PS';
+
 const App = () => {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <main role="main">
+        <Section1PS />
+      </main>
     </div>
   );
 }
