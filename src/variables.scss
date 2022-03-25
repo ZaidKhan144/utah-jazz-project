@@ -1,0 +1,61 @@
+$black: #010101;
+$yellow: #FBED2A;
+$white: #fff;
+$platinum: #e3e5e3;
+$grey: #282828;
+
+@font-face {
+    font-family: 'wt_jazzbold_extended';
+    src: url('https://www.nba.com/resources/static/team/v2/jazz/1_jazz-extended-webfont.woff2') format('woff2'),
+        url('https://www.nba.com/resources/static/team/v2/jazz/1_jazz-extended-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'wt_jazzbold_semi_condensed';
+    src: url('https://www.nba.com/resources/static/team/v2/jazz/1_jazz-semi_condensed-webfont.woff2') format('woff2'),
+        url('https://www.nba.com/resources/static/team/v2/jazz/1_jazz-semi_condensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'monument_bold';
+    src: url('https://www.nba.com/resources/static/team/v2/jazz/ABCMonumentGrotesk-Bold.woff2') format('woff2'),
+        url('https://www.nba.com/resources/static/team/v2/jazz/ABCMonumentGrotesk-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'monument_bold_italic';
+    src: url('https://www.nba.com/resources/static/team/v2/jazz/ABCMonumentGrotesk-BoldItalic.woff2') format('woff2'),
+        url('https://www.nba.com/resources/static/team/v2/jazz/ABCMonumentGrotesk-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'monument_regular';
+    src: url('https://www.nba.com/resources/static/team/v2/jazz/ABCMonumentGrotesk-Regular.woff2') format('woff2'),
+        url('https://www.nba.com/resources/static/team/v2/jazz/ABCMonumentGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'monument_regular_italic';
+    src: url('https://www.nba.com/resources/static/team/v2/jazz/ABCMonumentGrotesk-RegularItalic.woff2') format('woff2'),
+        url('https://www.nba.com/resources/static/team/v2/jazz/ABCMonumentGrotesk-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'monument_regular_mono';
+    src: url('https://www.nba.com/resources/static/team/v2/jazz/ABCMonumentGroteskMono-Regular.woff2') format('woff2'),
+        url('https://www.nba.com/resources/static/team/v2/jazz/ABCMonumentGroteskMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
