@@ -4,6 +4,7 @@ import Section1PS from './layout/PremiumSeating/Section1PS';
 import Section2PS from './layout/PremiumSeating/Section2PS';
 import Section3PS from './layout/PremiumSeating/Section3PS';
 import Section4PS from './layout/PremiumSeating/Section4PS';
+import Footer from './layout/Footer/Footer';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Section3PS />
         <Section4PS />
       </main>
+      <Footer />
     </div>
   );
 }
