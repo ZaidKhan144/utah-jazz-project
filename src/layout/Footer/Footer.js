@@ -7,8 +7,9 @@ import './Footer.scss'
 const Footer = () => {
   return (
     <footer id="footer">
-        <h1>Contact Us</h1>
         <div className="footer-container">
+        <h1>Contact Us</h1>
+        <div className="footer-content">
             <div className="footer-text">
                 <div className="footer-links">
                     <FontAwesomeIcon icon={solid('square-phone')} />
@@ -45,6 +46,7 @@ const Footer = () => {
                     <input type="submit" value="Submit" />
                 </form>
             </div>
+        </div>
         </div>
     </footer>
   )

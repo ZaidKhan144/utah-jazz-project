@@ -5,10 +5,24 @@
     color: $black;
     padding: 96px 0;
 
+   & .three-ps-container {
+        margin: 0 auto;
+        padding: 0 15px;
+
+        @media (min-width: 768px) {
+            width: 750px;
+        }
+
+        @media (min-width: 992px) {
+            width: 970px;
+        }
+
+        @media (min-width: 1200px) {
+            width: 1170px;
+        }
+
     & h1 {
         font-family: 'monument_bold';
-        width: 75%;
-        margin: 0 auto;
         color: $black;
         font-size: 35px;
         font-weight: bold;
@@ -16,10 +30,8 @@
         text-transform: uppercase;
     }
     
-    .three-ps-container {
+    .three-ps-content {
         display: flex;
-        max-width: 75%;
-        margin: 0 auto;
         justify-content: space-between;
         gap: 50px;
     }
@@ -37,8 +49,6 @@
     }
 
     .tickets-link {
-        width: 75%;
-        margin: 0 auto;
 
         & a {
             text-transform: uppercase;
@@ -60,4 +70,5 @@
             }
         }
     }
+   }
 }
