@@ -1,0 +1,80 @@
+@import '../../variables.scss';
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: $white;
+    font-size: 14px;
+    z-index: 999;
+    transition: all 0.35s;
+
+    .header-container {
+        margin: 0 auto;
+        padding: 0 3px 0 15px;
+        width: 100%;
+        max-width: 1170px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & .header-logo {
+            & a {
+                display: flex;
+                align-items: center;
+                color: $white;
+                text-transform: uppercase;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+                & img {
+                    height: 50px;
+                    margin-right: 20px;
+                }
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        & .header-links-container {
+            & a {
+                color: $yellow;
+                margin-right: 25px;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+                &:hover {
+                    color: $white;
+                    text-decoration: underline;
+                }
+            }
+
+            & a:nth-child(3) {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: -1px;
+        transform: translateX(-50%);
+        width: 100%;
+        max-width: 1170px;
+        border-bottom: 1px solid $white;
+        transition: all 0.35s;
+    }
+}
+
+.header-color {
+    background-color: $black;
+}
+
+#header.header-color::after {
+    max-width: 100%;
+}
+
