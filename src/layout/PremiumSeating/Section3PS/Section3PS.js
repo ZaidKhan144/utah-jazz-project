@@ -28,8 +28,8 @@ const Section3PS = () => {
                         width="560" 
                         height="315" 
                         src="https://www.youtube.com/embed/meGV_vYsjm0?rel=0" 
-                        frameborder="0" 
-                        allowfullscreen="allowfullscreen" 
+                        frameBorder="0" 
+                        allowFullScreen="allowfullscreen" 
                         id="youtube-5611197">
                     </iframe>
                 </div>
