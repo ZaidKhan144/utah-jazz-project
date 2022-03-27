@@ -74,6 +74,10 @@
                     }
                 }
             }
+
+            @media (max-width: 1025px) {
+                flex-direction: column;
+            }
         }
     }
 }
