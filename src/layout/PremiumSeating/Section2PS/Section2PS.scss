@@ -84,6 +84,14 @@
                     }
                 }
             }
+
+            @media (max-width: 1025px) {
+                flex-direction: column;
+
+                & .two-ps-card-0 {
+                    margin-bottom: 100px;
+                }
+            }
         }
     }
 }

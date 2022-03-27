@@ -21,7 +21,7 @@ const twoPSCardsData = [
 
 let twoPSCards = twoPSCardsData.map((item, index) => {
     return (
-        <div key={index} className="two-ps-card">
+        <div key={index} className={`two-ps-card two-ps-card-${index}`}>
             <div className="two-ps-image" style={{backgroundImage: `url(${item.image})`}}></div>
             <div className="two-ps-text">
                 <h6>{item.title}</h6>
@@ -39,7 +39,7 @@ const Section2PS = () => {
     <section id="two-ps">
         <div className="two-ps-container">
             <div className="two-ps-cards-container">
-                {/* {twoPSCards} */}
+                {twoPSCards}
             </div>
         </div>
     </section>
