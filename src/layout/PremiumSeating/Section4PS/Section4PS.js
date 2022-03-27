@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 import './Section4PS.scss'
 
 import ebsl from '../../../assets/images/Premium_EBS4.jpg'
@@ -70,25 +70,23 @@ const Section4PS = () => {
                     luxuryData.map((item, index) => {
                         return (
                             <div className="four-ps-card-wrapper" key={index}>
-                                <a href='' className="four-ps-card">
-                                    {item.title}
+                                <Link to="/ebs" className="four-ps-card">{item.title}
                                     <img src={item.image} alt={item.title} />
-                                </a>
+                                </Link>
                             </div>
                         )
                     })
                 }                
             </div>
-            <h1>Exclusive Clubs</h1>
+            <h1 id="ex-clubs">Exclusive Clubs</h1>
             <div className="four-ps-card-container">
                 {
                     exclusiveData.map((item, index) => {
                         return (
                             <div className="four-ps-card-wrapper" key={index}>
-                                <a href='' className="four-ps-card">
-                                    {item.title}
+                                <Link to="/ebs" className="four-ps-card">{item.title}
                                     <img src={item.image} alt={item.title} />
-                                </a>
+                                </Link>
                             </div>
                         )
                     })

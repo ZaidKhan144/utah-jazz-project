@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.scss';
 
 import Section1PS from './layout/PremiumSeating/Section1PS';
-import Section2PS from './layout/PremiumSeating/Section2PS';
-import Section3PS from './layout/PremiumSeating/Section3PS';
-import Section4PS from './layout/PremiumSeating/Section4PS';
 import Footer from './layout/Footer';
 import Header from './layout/Header';
+import Section1EBS from "./layout/EideBaillySuites/Section1EBS";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -30,15 +29,16 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header mobileWidth={mobileWidth} />
-      <main role="main">
-        <Section1PS />
-        <Section2PS />
-        <Section3PS />
-        <Section4PS />
-      </main>
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Section1PS />}></Route>
+          <Route path="/ebs" element={<Section1EBS />}></Route>
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
+    
   );
 }
 

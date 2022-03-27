@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
+import { Link } from "react-router-dom";
 
 import './Header.scss'
 import logo from '../../assets/images/logo.png'
@@ -32,11 +33,11 @@ const Header = (props) => {
     <header id="header" className={ headerColor ? 'header-color' : null}>
         <div className="header-container">
             <div className="header-logo">
-                <a href=""><img src={logo} alt="logo" />
+                <Link to="/"><img src={logo} alt="logo" />
                 {
                     !props.mobileWidth ? <span>Utah Jazz Premium Seating</span> : <span>Premium Seating</span>
                 }
-                </a>
+                </Link>
             </div>
             <div className={`header-links-container ${isActive ? 'change' : null}`} onClick={openHam}>
                 <div className={`hamburger-menu ${isActive ? 'change' : null}`} onClick={openHam}>
@@ -45,9 +46,9 @@ const Header = (props) => {
                     <div className="line line-3"></div>
                 </div>
                 <div className="header-links">
-                    <a href="" onClick={() => closeMenu()}>Luxury Suites</a>
-                    <a href="" onClick={() => closeMenu()}>Exclusive Clubs</a>
-                    <a href="" onClick={() => closeMenu()}>Contact Us</a>
+                    <a href="#four-ps" onClick={closeMenu}>Luxury Suites</a>
+                    <a href="#ex-clubs" onClick={closeMenu}>Exclusive Clubs</a>
+                    <a href="#footer" onClick={closeMenu}>Contact Us</a>
                 </div>
             </div>
         </div>
