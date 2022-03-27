@@ -39,7 +39,7 @@ const Section2PS = () => {
     <section id="two-ps">
         <div className="two-ps-container">
             <div className="two-ps-cards-container">
-                {twoPSCards}
+                {/* {twoPSCards} */}
             </div>
         </div>
     </section>
