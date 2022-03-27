@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
                 <p>With options like single-game tickets, suite rentals and special group rates, experiencing Utah Jazz basketball has never been more convenient! Just let us know what you're interested in and we can customize a package to fit your group and budget.</p>
             </div>
-            {/* <div className="footer-form">
+            <div className="footer-form">
                 <form>
                     <label>First Name &#42;
                         <input type="text" />
@@ -45,7 +45,7 @@ const Footer = () => {
                     </label>
                     <input type="submit" value="Submit" />
                 </form>
-            </div> */}
+            </div>
         </div>
         </div>
     </footer>
