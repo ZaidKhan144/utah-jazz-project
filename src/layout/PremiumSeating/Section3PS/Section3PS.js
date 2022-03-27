@@ -10,9 +10,7 @@ const Section3PS = () => {
         <div className="three-ps-container">
             <h1>Digital Tickets</h1>
             <div className="three-ps-content">
-            
                 <div className="three-ps-left">
-                    
                     <p>All tickets will be digital and accessible in the Utah Jazz + Vivint Arena App. Printed tickets will no longer be an option.</p>
                     <p>This move to digital-only has been made for several reasons:</p>
                     <p>Helps to prevent fraudulent tickets from being circulated</p>
@@ -23,7 +21,7 @@ const Section3PS = () => {
                         <p>- Allows for a convenient transfer process—you can transfer your tickets with the touch of a button.</p>
                     <p>If you have questions or concerns about digital tickets, please contact your account representative.</p>  
                 </div>
-                {/* <div className="three-ps-right">
+                <div className="three-ps-right">
                     <div className="video">
                         <iframe 
                             width="560" 
@@ -34,7 +32,7 @@ const Section3PS = () => {
                             id="youtube-5611197">
                         </iframe>
                     </div>
-                </div> */}
+                </div>
             </div>
             <div className="tickets-link">
                 <a href="">Learn more about digital tickets <FontAwesomeIcon icon={solid('caret-right')} /></a>

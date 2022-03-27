@@ -34,6 +34,21 @@
         display: flex;
         justify-content: space-between;
         gap: 50px;
+
+        @media (max-width: 1025px) {
+            flex-direction: column;
+            
+        }
+
+        @media (max-width: 767px ) {
+            & .three-ps-right {
+                & .video {
+                    & iframe {
+                        width: 345px;
+                    }
+                }
+            }
+        }
     }
 
     .three-ps-left {
@@ -68,6 +83,10 @@
                 background-color: $black;
                 color: $yellow;
             }
+        }
+
+        @media (max-width: 1025px) {
+            margin-top: 40px;
         }
     }
    }
