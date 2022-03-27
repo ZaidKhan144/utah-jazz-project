@@ -49,6 +49,16 @@
                 }
             }
         }
+
+        @media (max-width: 281px ) {
+            & .three-ps-right {
+                & .video {
+                    & iframe {
+                        width: 245px;
+                    }
+                }
+            }
+        }
     }
 
     .three-ps-left {
@@ -87,6 +97,12 @@
 
         @media (max-width: 1025px) {
             margin-top: 40px;
+        }
+
+        @media (max-width: 281px ) {
+            & a {
+                font-size: 10px;
+            }
         }
     }
    }
