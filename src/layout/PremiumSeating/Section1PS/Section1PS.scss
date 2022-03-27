@@ -7,10 +7,6 @@
     color: $white;
     line-height: 1.2;
 
-    @media (max-width: 767px) {
-        
-    }
-
     .text-container {
         margin: 0 auto;
         padding: 0 15px;
@@ -34,6 +30,11 @@
             text-align: center;
             text-transform: uppercase;
             font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+            @media (max-width: 767px) {
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
         }
 
         h6 {
@@ -43,6 +44,10 @@
             text-align: center;
             text-transform: uppercase;
             font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+            @media (max-width: 767px) {
+                font-size: 25px;
+            }
         }
 
         p {
