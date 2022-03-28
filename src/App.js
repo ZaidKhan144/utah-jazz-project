@@ -9,7 +9,7 @@ import Section1EBS from "./layout/EideBaillySuites/Section1EBS";
 import ScrollToTop from "./ScrollToTop";
 
 const App = () => {
-  const [loading, setLoading] = useState(true);
+  const [ loading, setLoading ] = useState(true);
   const [ mobileWidth, setMobileWidth ] = useState(window.innerWidth < 1025)
 
   const updateDimensions = () => {
@@ -31,7 +31,7 @@ const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header />
+        <Header mobileWidth={mobileWidth} />
         <ScrollToTop>
           <Routes>
             <Route path="/" element={<Section1PS />}></Route>

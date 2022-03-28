@@ -13,7 +13,7 @@ const Section2EBS = () => {
                 <h1>About</h1>
                 <div className="two-ebs-about">
                     <div className="about-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('street-view')} />
                         <p>Location</p>
                     </div>
                     <p className='about-inner-text'>Suite Level (Level 4)</p>
@@ -21,14 +21,14 @@ const Section2EBS = () => {
                 </div>
                 <div className="two-ebs-about">
                     <div className="about-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('users')} />
                         <p>Capacity</p>
                     </div>
                     <p className='about-inner-text'>Accommodates 18-32 people</p>
                 </div>
                 <div className="two-ebs-about">
                     <div className="about-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('lightbulb')} />
                         <p>Event Availability</p>
                     </div>
                     <p className='about-inner-text'>Utah Jazz Games (including playoffs)</p>
@@ -40,45 +40,45 @@ const Section2EBS = () => {
                 <h1>Benefits & Amenities</h1>
                 <div className="two-ebs-benefits">
                     <div className="benefits-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('check-circle')} />
                         <p>Private Suite</p>
                     </div>
                     <div className="benefits-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('check-circle')} />
                         <p>420-490 square feet depending on the location</p>
                     </div>
                     <div className="benefits-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('check-circle')} />
                         <p>Lounge seating area for four with coffee table at the back of suite</p>
                     </div>
                     <div className="benefits-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('check-circle')} />
                         <p>High-top counter in middle, and drink rails at the back of the fixed-seating area</p>
                     </div>
                     <div className="benefits-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('check-circle')} />
                         <p>Dedicated suite attendant for each game and arena event</p>
                     </div>
                 </div>
                 <div className="two-ebs-benefits">
                     <div className="benefits-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('check-circle')} />
                         <p>Flat screen TV in each suite</p>
                     </div>
                     <div className="benefits-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('check-circle')} />
                         <p>WiFi access</p>
                     </div>
                     <div className="benefits-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('check-circle')} />
                         <p>18-32 tickets in a luxury suite (varies by location)</p>
                     </div>
                     <div className="benefits-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('check-circle')} />
                         <p>VIP parking passes</p>
                     </div>
                     <div className="benefits-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('check-circle')} />
                         <p>Food credit for catering to both Utah Jazz games and arena events</p>
                     </div>
                 </div>
@@ -88,14 +88,14 @@ const Section2EBS = () => {
                 <h1>Parking & Check In</h1>
                 <div className="two-ebs-checkin">
                     <div className="checkin-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('car')} />
                         <p>Premium Parking within a short walk to the arena</p>
                     </div>
                     <a href="">View Parking Map</a>
                 </div>
                 <div className="two-ebs-checkin">
                     <div className="checkin-inner">
-                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <FontAwesomeIcon icon={solid('map-signs')} />
                         <p>Easy check-in: Talk to the host at any suite level (level 4) entrance to check-in</p>
                     </div>
                     <a href="">View Check-in Locations</a>
@@ -104,7 +104,7 @@ const Section2EBS = () => {
 
             <div className="two-ebs-content-pu">
                 <div className="two-ebs-pu-title">
-                    <FontAwesomeIcon icon={solid('square-phone')} />
+                    <FontAwesomeIcon icon={solid('circle-plus')} />
                     <h1>Possible Uses</h1>
                 </div>
                 <div className="two-ebs-pu-container">
