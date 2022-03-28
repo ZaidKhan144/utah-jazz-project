@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import './App.scss';
 
 import Section1PS from './layout/PremiumSeating/Section1PS';
@@ -36,7 +36,7 @@ const App = () => {
   } else {
     return (
       <div className="App">
-        <BrowserRouter>
+        {/* <BrowserRouter> */}
           <Header mobileWidth={mobileWidth} />
           <ScrollToTop>
             <Routes>
@@ -45,7 +45,7 @@ const App = () => {
             </Routes>
           </ScrollToTop>
           <Footer />
-        </BrowserRouter>
+        {/* </BrowserRouter> */}
       </div>
       
     );
