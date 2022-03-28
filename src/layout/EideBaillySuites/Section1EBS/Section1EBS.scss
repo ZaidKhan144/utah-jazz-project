@@ -28,12 +28,21 @@
                 width: 1170px;
             }
 
+            @media (max-width: 750px) {
+                flex-direction: column;
+            }
+
             & h1 {
                 font-size: 30px;
                 font-weight: bold;
                 line-height: 1.1;
                 text-transform: uppercase;
                 font-family: "monument_bold";
+
+                @media (max-width: 1025px) {
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
             }
 
             & .banner-links {

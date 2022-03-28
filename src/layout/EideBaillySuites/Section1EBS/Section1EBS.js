@@ -19,10 +19,7 @@ const Section1EBS = () => {
                 <div className="banner">
                     <h1>Eide Bailly Suite Level</h1>
                     <div className="banner-links">
-                        {/* <div className="banner-download"> */}
-                            {/* <i></i> */}
-                            <a href=""><FontAwesomeIcon icon={solid('square-phone')} />Download Info</a>
-                        {/* </div> */}
+                        <a href=""><FontAwesomeIcon icon={solid('square-phone')} />Download Info</a>
                         <a href="">Contact Us</a>
                     </div>
                 </div>
@@ -42,7 +39,7 @@ const Section1EBS = () => {
             </div>
             <div className="noti">
                 <div className="noti-container">
-                    <FontAwesomeIcon icon={solid('square-phone')} />
+                    <FontAwesomeIcon icon={solid('info-circle')} />
                     <p>Did you know? Whether you're closing an important business deal or celebrating with your employees, renting a suite for a Jazz game is perfect for any occasion. Call or text <a href="tel:+801-325-2105">801-325-2105</a> to learn more.</p>
                 </div>
             </div>
