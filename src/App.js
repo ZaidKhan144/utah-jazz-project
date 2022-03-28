@@ -40,7 +40,7 @@ const App = () => {
           <Header mobileWidth={mobileWidth} />
           <ScrollToTop>
             <Routes>
-              <Route path="/" element={<Section1PS />}></Route>
+              <Route path="/utah-jazz-project" element={<Section1PS />}></Route>
               <Route path="/ebs" element={<Section1EBS />}></Route>
             </Routes>
           </ScrollToTop>
