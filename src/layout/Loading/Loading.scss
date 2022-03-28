@@ -1,0 +1,21 @@
+@import "../../variables.scss";
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 9;
+  left: 0;
+  top: 0;
+  background-color: $black;
+
+  .icon {
+    position: absolute;
+    top: 50%;
+    transform: translate(4%, -50%);
+    width: 80px;
+  }
+}

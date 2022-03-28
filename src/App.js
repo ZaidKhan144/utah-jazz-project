@@ -7,6 +7,7 @@ import Footer from './layout/Footer';
 import Header from './layout/Header';
 import Section1EBS from "./layout/EideBaillySuites/Section1EBS";
 import ScrollToTop from "./ScrollToTop";
+import Loading from "./layout/Loading";
 
 const App = () => {
   const [ loading, setLoading ] = useState(true);
@@ -28,21 +29,29 @@ const App = () => {
     }
   }, [])
 
-  return (
-    <div className="App">
-      <BrowserRouter>
-        <Header mobileWidth={mobileWidth} />
-        <ScrollToTop>
-          <Routes>
-            <Route path="/" element={<Section1PS />}></Route>
-            <Route path="/ebs" element={<Section1EBS />}></Route>
-          </Routes>
-        </ScrollToTop>
-        <Footer />
-      </BrowserRouter>
-    </div>
-    
-  );
+  if (loading) {
+    return (
+      <Loading setLoading={setLoading}/>
+    )
+  } else {
+    return (
+      <div className="App">
+        <BrowserRouter>
+          <Header mobileWidth={mobileWidth} />
+          <ScrollToTop>
+            <Routes>
+              <Route path="/" element={<Section1PS />}></Route>
+              <Route path="/ebs" element={<Section1EBS />}></Route>
+            </Routes>
+          </ScrollToTop>
+          <Footer />
+        </BrowserRouter>
+      </div>
+      
+    );
+  }
+
+  
 }
 
 export default App;
