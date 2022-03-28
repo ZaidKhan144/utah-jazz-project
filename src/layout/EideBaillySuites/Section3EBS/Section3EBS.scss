@@ -1,0 +1,49 @@
+@import '../../../variables.scss';
+
+#three-ebs {
+
+    & .three-ebs-img {
+        position: relative;
+
+        & img {
+            height: 45vw;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+
+        & .three-ebs-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0%;
+            right: 0;
+            background-color: rgba(1, 1, 1, .7);
+            text-align: center;
+            padding: 25px 0;
+
+            & .three-overlay-contaier {
+                margin: 0 auto;
+                padding: 0 12vw;
+
+                @media (min-width: 768px) {
+                    width: 750px;
+                }
+        
+                @media (min-width: 992px) {
+                    width: 970px;
+                }
+        
+                @media (min-width: 1200px) {
+                    width: 1170px;
+                }
+
+                & p {
+                    color: $white;
+                    margin: 0 auto;
+                    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                }
+            }
+        }
+    }
+}
