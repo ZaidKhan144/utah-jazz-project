@@ -1,0 +1,61 @@
+@import '../../../variables.scss';
+
+#two-ebs {
+    background-color: $black;
+    color: $white;
+
+    & .two-ebs-container {
+        margin: 0 auto;
+        padding: 0 15px;
+
+        @media (min-width: 768px) {
+            width: 750px;
+        }
+
+        @media (min-width: 992px) {
+            width: 970px;
+        }
+
+        @media (min-width: 1200px) {
+            width: 1170px;
+        }
+
+        & .two-ebs-content {
+            display: flex;
+            padding: 60px 0;
+            border-bottom: 1px solid $yellow;
+            justify-content: space-between;
+            // align-items: center;
+
+            & h1 {
+                font-size: 30px;
+                font-weight: bold;
+                text-transform: uppercase;
+                line-height: 1.2;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            }
+
+            & .two-ebs-about {
+
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+                & .about-inner {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    font-size: 20px;
+
+                    & svg {
+                        margin-right: 10px;
+                        fill: $yellow;
+                    }
+                }
+
+                & .about-inner-text {
+                    padding-left: 25px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}
