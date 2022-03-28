@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/utah-jazz-project/static/css/main.7d87ab37.css",
-    "main.js": "/utah-jazz-project/static/js/main.af0b4931.js",
+    "main.js": "/utah-jazz-project/static/js/main.926694c7.js",
     "static/media/Premium_LogeBox1.jpg": "/utah-jazz-project/static/media/Premium_LogeBox1.099e623825bb0f82f4aa.jpg",
     "static/media/Premium_EBS5.jpg": "/utah-jazz-project/static/media/Premium_EBS5.72803287313ea1c58426.jpg",
     "static/media/Premium_EBS2.jpg": "/utah-jazz-project/static/media/Premium_EBS2.3a5d4aff2887c7db220f.jpg",
@@ -18,10 +18,10 @@
     "index.html": "/utah-jazz-project/index.html",
     "static/media/circle.svg": "/utah-jazz-project/static/media/circle.e69aca4c58d3f15424a1b59b09352729.svg",
     "main.7d87ab37.css.map": "/utah-jazz-project/static/css/main.7d87ab37.css.map",
-    "main.af0b4931.js.map": "/utah-jazz-project/static/js/main.af0b4931.js.map"
+    "main.926694c7.js.map": "/utah-jazz-project/static/js/main.926694c7.js.map"
   },
   "entrypoints": [
     "static/css/main.7d87ab37.css",
-    "static/js/main.af0b4931.js"
+    "static/js/main.926694c7.js"
   ]
 }
