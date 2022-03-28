@@ -6,6 +6,7 @@ import Section1PS from './layout/PremiumSeating/Section1PS';
 import Footer from './layout/Footer';
 import Header from './layout/Header';
 import Section1EBS from "./layout/EideBaillySuites/Section1EBS";
+import ScrollToTop from "./ScrollToTop";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -31,10 +32,12 @@ const App = () => {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <Routes>
-          <Route path="/" element={<Section1PS />}></Route>
-          <Route path="/ebs" element={<Section1EBS />}></Route>
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route path="/" element={<Section1PS />}></Route>
+            <Route path="/ebs" element={<Section1EBS />}></Route>
+          </Routes>
+        </ScrollToTop>
         <Footer />
       </BrowserRouter>
     </div>
