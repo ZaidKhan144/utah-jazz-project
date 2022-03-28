@@ -26,6 +26,7 @@
             border-bottom: 1px solid $yellow;
             justify-content: space-between;
             // align-items: center;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
             & h1 {
                 font-size: 30px;
@@ -36,8 +37,6 @@
             }
 
             & .two-ebs-about {
-
-                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
                 & .about-inner {
                     display: flex;
@@ -51,10 +50,40 @@
                     }
                 }
 
+                & a {
+                    margin-left: 25px;
+                    color: $black;
+                    border-radius: 5px;
+                    padding: 5px 20px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    transition: all 0.2s;
+                    border: 1px solid $black;
+                    background-color: $yellow;
+                }
+
                 & .about-inner-text {
                     padding-left: 25px;
                     padding-bottom: 20px;
                 }
+            }
+
+            & .two-ebs-benefits {
+
+                & .benefits-inner {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 30px;
+
+                    & svg {
+                        margin-right: 10px;
+                        fill: $yellow;
+                    }
+                }
+            }
+
+            & .two-ebs-benefits {
+                padding-right: 40px;
             }
         }
     }

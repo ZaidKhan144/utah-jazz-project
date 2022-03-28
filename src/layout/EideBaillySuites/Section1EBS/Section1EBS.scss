@@ -49,6 +49,12 @@
                     transition: all 0.2s;
                     border: 1px solid $black;
                     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+                    &:hover {
+                        background-color: $black;
+                        color: $white;
+                        border: 1px solid $white;
+                    }
                 }
 
                 & a:first-child {
