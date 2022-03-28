@@ -85,11 +85,11 @@ const Section2EBS = () => {
             </div>
 
             <div className="two-ebs-content">
-                <h1>Parking & Check In</h1>
+                <h1 className='parking-text'>Parking & Check In</h1>
                 <div className="two-ebs-checkin">
                     <div className="checkin-inner">
                         <FontAwesomeIcon icon={solid('car')} />
-                        <p>Premium Parking within a short walk to the arena</p>
+                        <p>VIP parking in the Park Place lot located right next to Vivint Smart Home Arena</p>
                     </div>
                     <a href="">View Parking Map</a>
                 </div>

@@ -19,7 +19,7 @@ const Section1EBS = () => {
                 <div className="banner">
                     <h1>Eide Bailly Suite Level</h1>
                     <div className="banner-links">
-                        <a href=""><FontAwesomeIcon icon={solid('square-phone')} />Download Info</a>
+                        <a href=""><FontAwesomeIcon icon={solid('file-pdf')} />Download Info</a>
                         <a href="">Contact Us</a>
                     </div>
                 </div>

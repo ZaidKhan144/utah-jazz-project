@@ -23,24 +23,21 @@ const Footer = () => {
             </div>
             <div className="footer-form">
                 <form>
-                    <label>First Name &#42;
+                    <label>User Input
                         <input type="text" />
                     </label>
-                    <label>Last Name &#42;
+                    <label>User Input
                         <input type="text" />
                     </label>
-                    <label>Email Address &#42;
-                        <input type="email" />
+                    <label>User Input
+                        <input type="text" />
                     </label>
-                    <label>Phone Number &#42;
-                        <input type="tel" />
-                    </label>
-                    <label>What type of seating are you interested in?
+                    <label>Options
                         <select>
                             <option defaultValue="select">Select...</option>
                         </select>
                     </label>
-                    <label>Comments
+                    <label>Short text
                         <input type="text" />
                     </label>
                     <input type="submit" value="Submit" />
