@@ -36,16 +36,16 @@ const App = () => {
   } else {
     return (
       <div className="App">
-        {/* <BrowserRouter> */}
+        <BrowserRouter basename='/utah-jazz-project'>
           <Header mobileWidth={mobileWidth} />
           <ScrollToTop>
             <Routes>
-              <Route path="/utah-jazz-project" element={<Section1PS />}></Route>
+              <Route path="/" element={<Section1PS />}></Route>
               <Route path="/ebs" element={<Section1EBS />}></Route>
             </Routes>
           </ScrollToTop>
           <Footer />
-        {/* </BrowserRouter> */}
+        </BrowserRouter>
       </div>
       
     );

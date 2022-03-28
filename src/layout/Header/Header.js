@@ -40,7 +40,7 @@ const Header = (props) => {
     <header id="header" className={ headerColor ? 'header-color' : null} style= {{backgroundColor: headerEBSColor}}>
         <div className="header-container">
             <div className="header-logo">
-                <Link to="/utah-jazz-project"><img src={logo} alt="logo" />
+                <Link to="/"><img src={logo} alt="logo" />
                 {
                     !props.mobileWidth ? <span>Utah Jazz Premium Seating</span> : <span>Premium Seating</span>
                 }
