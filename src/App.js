@@ -36,7 +36,7 @@ const App = () => {
   } else {
     return (
       <div className="App">
-        <BrowserRouter basename='/utah-jazz-project'>
+        <HashRouter basename='/'>
           <Header mobileWidth={mobileWidth} />
           <ScrollToTop>
             <Routes>
@@ -45,7 +45,7 @@ const App = () => {
             </Routes>
           </ScrollToTop>
           <Footer />
-        </BrowserRouter>
+        </HashRouter>
       </div>
       
     );
