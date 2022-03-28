@@ -36,6 +36,12 @@ const Section1EBS = () => {
                 </SplideSlide>
             </Splide>
         </div>
+        <div className="noti">
+            <div className="noti-container">
+                <FontAwesomeIcon icon={solid('square-phone')} />
+                <p>Did you know? Whether you're closing an important business deal or celebrating with your employees, renting a suite for a Jazz game is perfect for any occasion. Call or text <a href="tel:+801-325-2105">801-325-2105</a> to learn more.</p>
+            </div>
+        </div>
     </section>
   )
 }
