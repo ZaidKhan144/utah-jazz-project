@@ -6,6 +6,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import './Section1EBS.scss'
 import Section2EBS from '../Section2EBS';
 import Section3EBS from '../Section3EBS';
+import Section3PS from '../../PremiumSeating/Section3PS'
 
 import EBS2 from '../../../assets/images/Premium_EBS2.jpg'
 import EBS4 from '../../../assets/images/Premium_EBS4.jpg'
@@ -48,6 +49,7 @@ const Section1EBS = () => {
         </section>
         <Section2EBS />
         <Section3EBS />
+        <Section3PS />
     </>
   )
 }
