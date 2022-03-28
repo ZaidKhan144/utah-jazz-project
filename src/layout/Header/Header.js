@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link, useLocation } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 import './Header.scss'
 import logo from '../../assets/images/logo.png'
@@ -7,7 +8,7 @@ import logo from '../../assets/images/logo.png'
 const Header = (props) => {
 
   const [ headerColor, setHeaderColor ] = useState(false);
-  const [isActive, setActive] = useState(false);
+  const [ isActive, setActive ] = useState(false);
   const [ headerEBSColor, setHeaderEBSColor ] = useState('')
 
   const location = useLocation();
@@ -19,9 +20,10 @@ const Header = (props) => {
   useEffect(() => {
     window.addEventListener("scroll", headerColorChange)
 
-    if (window.location.pathname === "/ebs") {
+    if (location.pathname === "/ebs") {
       setHeaderEBSColor('#010101')
     }
+
   }, [location])
 
   const openHam = () => {
@@ -53,9 +55,9 @@ const Header = (props) => {
                     <div className="line line-3"></div>
                 </div>
                 <div className="header-links">
-                    <a href="#four-ps" onClick={closeMenu}>Luxury Suites</a>
-                    <a href="#ex-clubs" onClick={closeMenu}>Exclusive Clubs</a>
-                    <a href="#footer" onClick={closeMenu}>Contact Us</a>
+                    <HashLink to="#four-ps" onClick={closeMenu}>Luxury Suites</HashLink>
+                    <HashLink to="#ex-clubs" onClick={closeMenu}>Exclusive Clubs</HashLink>
+                    <HashLink to="#footer" onClick={closeMenu}>Contact Us</HashLink>
                 </div>
             </div>
         </div>
