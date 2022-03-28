@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { HashLink } from 'react-router-hash-link';
 
 import './Section1EBS.scss'
 import Section2EBS from '../Section2EBS';
@@ -20,7 +21,7 @@ const Section1EBS = () => {
                     <h1>Eide Bailly Suite Level</h1>
                     <div className="banner-links">
                         <a href=""><FontAwesomeIcon icon={solid('file-pdf')} />Download Info</a>
-                        <a href="">Contact Us</a>
+                        <HashLink to="#footer">Contact Us</HashLink>
                     </div>
                 </div>
             </div>

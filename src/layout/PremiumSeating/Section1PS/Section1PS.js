@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link';
 import Section2PS from '../Section2PS'
 import Section3PS from '../Section3PS'
 import Section4PS from '../Section4PS'
@@ -20,7 +21,7 @@ const Section1PS = () => {
         and family shows, Vivint Arena is the place to meet, greet, 
         see and be seen in Utah.</p>
         <div className="intro-link">
-          <a href="#footer">Contact Us</a>
+        <HashLink to="#footer">Contact Us</HashLink>
         </div>
       </div>
     </section>
