@@ -91,16 +91,73 @@ const Section2EBS = () => {
                         <FontAwesomeIcon icon={solid('square-phone')} />
                         <p>Premium Parking within a short walk to the arena</p>
                     </div>
+                    <a href="">View Parking Map</a>
                 </div>
                 <div className="two-ebs-checkin">
                     <div className="checkin-inner">
                         <FontAwesomeIcon icon={solid('square-phone')} />
                         <p>Easy check-in: Talk to the host at any suite level (level 4) entrance to check-in</p>
                     </div>
+                    <a href="">View Check-in Locations</a>
                 </div>
             </div>
 
-            
+            <div className="two-ebs-content-pu">
+                <div className="two-ebs-pu-title">
+                    <FontAwesomeIcon icon={solid('square-phone')} />
+                    <h1>Possible Uses</h1>
+                </div>
+                <div className="two-ebs-pu-container">
+                    <div className="two-ebs-pu">
+                        <div className="pu-inner">
+                            <h5>Business Development</h5>
+                        </div>
+                        <p>Client Entertainment</p>
+                        <p>Relationship Development</p>
+                        <p>Generate Referrals by Inviting Clients to Bring Colleagues & Friends</p>
+                    </div>
+                    <div className="two-ebs-pu">
+                        <div className="pu-inner">
+                            <h5>Client Retention</h5>
+                        </div>
+                        <p>Renew Accounts</p>
+                        <p>Reduce Attrition</p>
+                        <p>Relationship Development</p>
+                        <p>Current Customer Upsell</p>
+                        <p>New Product/Service Launch</p>
+                    </div>
+                    <div className="two-ebs-pu">
+                        <div className="pu-inner">
+                            <h5>Employee Usage</h5>
+                        </div>
+                        <p>Employee Recruitment & Retention</p>
+                        <p>Employee Benefit Programs</p>
+                        <p>Employee Incentives</p>
+                        <p>Internal Contests</p>
+                        <p>Team Building</p>
+                        <p>Employee Families</p>
+                        <p>Holiday Events/Parties</p>
+                        <p>Conferences</p>
+                    </div>
+                    <div className="two-ebs-pu">
+                        <div className="pu-inner">
+                            <h5>Executive Utilization</h5>
+                        </div>
+                        <p>Executive Team Building</p>
+                        <p>Quarterly Meetings</p>
+                        <p>Investors & Shareholders</p>
+                        <p>Personal Entertainment</p>
+                    </div>
+                    <div className="two-ebs-pu">
+                        <div className="pu-inner">
+                            <h5>Community Relations</h5>
+                        </div>
+                        <p>Complement Current Charitable Programs</p>
+                        <p>Donate for Auctions or Raffles</p>
+                        <p>Host 501(c)(3) Organizations</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
   )
