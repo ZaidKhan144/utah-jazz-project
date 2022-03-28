@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import './Header.scss'
 import logo from '../../assets/images/logo.png'
@@ -8,14 +8,21 @@ const Header = (props) => {
 
   const [ headerColor, setHeaderColor ] = useState(false);
   const [isActive, setActive] = useState(false);
+  const [ headerEBSColor, setHeaderEBSColor ] = useState('')
 
+  const location = useLocation();
+  
   const headerColorChange = () => {
     window.scrollY >= 80 ? setHeaderColor(true) : setHeaderColor(false)
   }
 
   useEffect(() => {
     window.addEventListener("scroll", headerColorChange)
-  }, [])
+
+    if (window.location.pathname === "/ebs") {
+      setHeaderEBSColor('#010101')
+    }
+  }, [location])
 
   const openHam = () => {
 
@@ -30,7 +37,7 @@ const Header = (props) => {
   }
 
   return (
-    <header id="header" className={ headerColor ? 'header-color' : null}>
+    <header id="header" className={ headerColor ? 'header-color' : null} style= {{backgroundColor: headerEBSColor}}>
         <div className="header-container">
             <div className="header-logo">
                 <Link to="/"><img src={logo} alt="logo" />

@@ -1,2 +1,78 @@
 @import '../../../variables.scss';
+@import '@splidejs/splide/dist/css/themes/splide-skyblue.min.css';
 
+#one-ebs {
+
+    & .banner-container {
+        margin-top: 50px;
+        padding: 2rem 0;
+        background-color: $white;
+        color: $black;
+
+        & .banner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 auto;
+            padding: 0 15px;
+
+            @media (min-width: 768px) {
+                width: 750px;
+            }
+    
+            @media (min-width: 992px) {
+                width: 970px;
+            }
+    
+            @media (min-width: 1200px) {
+                width: 1170px;
+            }
+
+            & h1 {
+                font-size: 30px;
+                font-weight: bold;
+                line-height: 1.1;
+                text-transform: uppercase;
+                font-family: "monument_bold";
+            }
+
+            & .banner-links {
+                display: flex;
+                align-items: center;
+
+                & a {
+                    color: $black;
+                    border-radius: 5px;
+                    padding: 5px 20px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    transition: all 0.2s;
+                    border: 1px solid $black;
+                    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                }
+
+                & a:first-child {
+                    margin-right: 40px;
+
+                    & svg {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ebs-carousel {
+    width: calc(100%);
+    object-fit: cover;
+    object-position: center;
+}
+
+.splide__arrow svg, .splide__arrow:hover svg {
+    fill: $yellow;
+}
+
+.splide__pagination__page.is-active {
+    background: $yellow;
+}
