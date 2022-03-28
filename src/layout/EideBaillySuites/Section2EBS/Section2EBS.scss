@@ -69,10 +69,10 @@
             }
 
             & .two-ebs-benefits {
+                padding-right: 40px;
 
                 & .benefits-inner {
                     display: flex;
-                    align-items: center;
                     margin-bottom: 30px;
 
                     & svg {
@@ -82,9 +82,19 @@
                 }
             }
 
-            & .two-ebs-benefits {
+            & .two-ebs-checkin {
                 padding-right: 40px;
+                
+                & .checkin-inner {
+                    display: flex;
+
+                    & svg {
+                        margin-right: 10px;
+                        fill: $yellow;
+                    }
+                }
             }
+
         }
     }
 }

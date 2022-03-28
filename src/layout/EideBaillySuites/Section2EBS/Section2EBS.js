@@ -84,6 +84,22 @@ const Section2EBS = () => {
                 </div>
             </div>
 
+            <div className="two-ebs-content">
+                <h1>Parking & Check In</h1>
+                <div className="two-ebs-checkin">
+                    <div className="checkin-inner">
+                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <p>Premium Parking within a short walk to the arena</p>
+                    </div>
+                </div>
+                <div className="two-ebs-checkin">
+                    <div className="checkin-inner">
+                        <FontAwesomeIcon icon={solid('square-phone')} />
+                        <p>Easy check-in: Talk to the host at any suite level (level 4) entrance to check-in</p>
+                    </div>
+                </div>
+            </div>
+
             
         </div>
     </section>
